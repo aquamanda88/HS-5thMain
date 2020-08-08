@@ -1,0 +1,106 @@
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.container .banner {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .banner .content {
+  padding-bottom: 60px;
+  margin-top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .banner .content .picBlock {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .banner .content .picBlock .checkCircle {
+  position: absolute;
+  top: 128px;
+  width: 190px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .banner .content .picBlock .checkCircle i {
+  color: #3F5D45;
+  text-align: center;
+  width: 20px;
+}
+
+.container .banner .content .picBlock .checkLine {
+  position: absolute;
+  top: 128px;
+  width: 155px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .banner .content .picBlock .checkLine hr {
+  border: solid 1px #3F5D45;
+  width: 70px;
+  margin: 8px 0;
+}
+
+.container .banner .content .titleBlock {
+  position: absolute;
+}
+
+.container .banner .content .titleBlock .bg-sccess {
+  padding-top: 182px;
+  width: 189px;
+  height: 45px;
+}
+
+.container .banner .content .bg-imagePC {
+  display: block;
+}
+
+.container .banner .content .bg-imageRWD, .container .banner .content .bg-imageRWD-lg {
+  display: none;
+}
+
+.container .banner .keepGoing {
+  position: absolute;
+  text-align: center;
+  background: #FFE180;
+  padding: 22.5px 102px;
+  margin-top: 279px;
+  color: #3F5D45;
+  font-size: 24px;
+  line-height: 20px;
+}
+
+.container .banner .btn .keepGoingRWD {
+  display: none;
+}
+/*# sourceMappingURL=page1.css.map */
